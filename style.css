@@ -1,1 +1,20 @@
-body {background-color: #c0a5a5;}
+.logo {
+    text-decoration: none;
+    font-size: 1.25rem;
+    font-weight: bold;
+    color: #1e293b;
+}
+
+.site-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+nav ul {
+    list-style: none;
+    display: flex;
+    padding: 0;
+    gap: 24px;
+
+}
